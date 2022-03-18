@@ -1,0 +1,9 @@
+Base path: 'C:/Program Files/UNITY/2021.1.12f1/Editor/Data', plugins path 'C:/Program Files/UNITY/2021.1.12f1/Editor/Data/PlaybackEngines'
+Cmd: initializeCompiler
+
+Cmd: compileComputeKernel
+  insize=18269 file=C:/Users/jackl/Documents/GitHub/HummingBird/Library/PackageCache/com.unity.barracuda@1.0.4/Barracuda/Runtime/Core/Resources/Pool.compute kernel=GlobalAvgPool2D_NHWC cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=19 km=<CHANNELS_FIRST=0>,<UNITY_VERSION=202119> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0 ok=1 outsize=3256
+
+Cmd: compileComputeKernel
+  insize=79184 file=C:/Users/jackl/Documents/GitHub/HummingBird/Library/PackageCache/com.unity.barracuda@1.0.4/Barracuda/Runtime/Core/Resources/Conv.compute kernel=Conv2DKernelKxK_StrictC16StrictK64_T8x8_R8x8_NHWC cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=19 km=<CHANNELS_FIRST=0>,<BLOCK_SIZE=8>,<KERNEL_PER_TG=64>,<STRICT_CHANNELS=1>,<SUFFIX=KernelKxK_StrictC16StrictK64_T8x8_R>,<UNITY_VERSION=202119> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0 ok=1 outsize=27129
+
