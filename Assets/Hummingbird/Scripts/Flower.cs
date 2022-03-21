@@ -3,7 +3,7 @@
 // Author: Jack Peedle
 // Date Created: 18/03/22
 // Last Edited By: Jack Peedle
-// Date Last Edited: 18/03/22
+// Date Last Edited: 21/03/22
 // Brief: Manages a single flower with nectar
 //////////////////////////////////////////////////////////// 
 
@@ -87,4 +87,77 @@ public class Flower : MonoBehaviour {
         }
 
     }
+
+    /// <summary>
+    /// Attempts to remove nectar from the flower
+    /// </summary>
+    /// <param name="amount"> The amount of nectar to remove </param>
+    /// <returns> The actual amount successfully removed </returns>
+    public float Feed(float amount) {
+
+        // Track how much nectar was taken (can't take more than available)
+        float nectarTaken = Mathf.Clamp(amount, 0f, NectarAmount);
+
+        //subtract nectar
+        NectarAmount -= amount;
+
+        //
+        if (NectarAmount <= 0) {
+
+            // no nectar remaining
+            NectarAmount = 0;
+
+            // Disable the flower and nectar colliders
+            flowerCollider.gameObject.SetActive(false);
+
+            nectarCollider.gameObject.SetActive(false);
+
+            // change flower colour (empty)
+            flowerMaterial.SetColor("_BaseColor", emptyFlowerColour);
+
+        }
+
+        // Return the amount of nectar that was taken
+        return nectarTaken;
+
+    }
+
+    /// <summary>
+    /// Resets the flower
+    /// </summary>
+    public void ResetFlower() {
+
+        // refil the nectar
+        NectarAmount = 1f;
+
+        // enable the flower and nectar colliders
+        flowerCollider.gameObject.SetActive(true);
+        nectarCollider.gameObject.SetActive(true);
+
+        // change flower colour to indicate full flower
+        flowerMaterial.SetColor("_BaseColor", fullFlowerColour);
+
+
+    }
+
+    /// <summary>
+    /// called when flower wakes up
+    /// </summary>
+    private void Awake() {
+
+        // find the flowers mesh renderer, get main material
+        MeshRenderer meshRenderer = GetComponent<MeshRenderer>();
+
+        //
+        flowerMaterial = meshRenderer.material;
+
+        // find flower and nectar colliders
+        flowerCollider = transform.Find("FlowerCollider").GetComponent<Collider>();
+
+        //
+        nectarCollider = transform.Find("FlowerNectarCollider").GetComponent<Collider>();
+
+    }
+
+
 }
