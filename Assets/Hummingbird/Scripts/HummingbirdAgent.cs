@@ -3,7 +3,7 @@
 // Author: Jack Peedle
 // Date Created: 18/03/22
 // Last Edited By: Jack Peedle
-// Date Last Edited: 21/03/22
+// Date Last Edited: 22/03/22
 // Brief: 
 //////////////////////////////////////////////////////////// 
 
@@ -218,6 +218,96 @@ public class HummingbirdAgent : Agent {
     }
 
     /// <summary>
+    /// when behaviour type is set to heuristic only on the agents behaviour parameters, this function will be called,
+    /// its return values will be fed into 
+    /// <see cref="OnActionReceived(float[])"/> instead of using the NN
+    /// </summary>
+    /// <param name="actionsOut"> And output action array </param>
+    public override void Heuristic(float[] actionsOut) {
+
+        // create placeholders for all movement / turning
+        Vector3 forward = Vector3.zero;
+        Vector3 left = Vector3.zero;
+        Vector3 up = Vector3.zero;
+        float pitch = 0f;
+        float yaw = 0f;
+
+        // convert keyboard inputs into movement and turning
+        // all values should be between -1 and 1
+
+        // forward / backwards
+        if (Input.GetKey(KeyCode.W)) {
+
+            forward = transform.forward;
+
+        } else if (Input.GetKey(KeyCode.S)) {
+            forward = -transform.forward;
+        }
+
+        // left / right
+        if (Input.GetKey(KeyCode.A)) {
+            left = -transform.right;
+        } else if (Input.GetKey(KeyCode.D)) {
+            left = transform.right;
+        }
+
+        // up / down
+        if (Input.GetKey(KeyCode.E)) {
+            up = transform.up;
+        } else if (Input.GetKey(KeyCode.C)) {
+            up = -transform.up;
+        }
+
+        // pitch up / down
+        if (Input.GetKey(KeyCode.UpArrow)) {
+            pitch = 1f;
+        } else if (Input.GetKey(KeyCode.DownArrow)) {
+            pitch = -1f;
+        }
+
+        // turn left / right
+        if (Input.GetKey(KeyCode.LeftArrow)) {
+            yaw = -1f;
+        } else if (Input.GetKey(KeyCode.RightArrow)) {
+            yaw = 1f;
+        }
+
+
+        // combine movement vectors and normalize
+        Vector3 combined = (forward + left + up).normalized;
+
+        // add the 3 movement values, pitch, and yaw to the actionsOut array
+        actionsOut[0] = combined.x;
+        actionsOut[1] = combined.y;
+        actionsOut[2] = combined.z;
+        actionsOut[3] = pitch;
+        actionsOut[4] = yaw;
+
+    }
+
+    /// <summary>
+    /// prevent the agent from moving and taking actions
+    /// </summary>
+    public void FreezeAgent() {
+
+        Debug.Assert(trainingMode == false, "Freeze/Unfreeze not supported in training");
+        frozen = true;
+        rigidbody.Sleep();
+
+    }
+
+    /// <summary>
+    /// resume agent movement and actions
+    /// </summary>
+    public void UnFreezeAgent() {
+
+        Debug.Assert(trainingMode == false, "Freeze/Unfreeze not supported in training");
+        frozen = false;
+        rigidbody.WakeUp();
+
+    }
+
+    /// <summary>
     /// move the agent to a safe random position (i.e. does not collide with anything)
     /// if in front of the flower, also point the beak at the flower
     /// </summary>
@@ -318,6 +408,112 @@ public class HummingbirdAgent : Agent {
 
             }
 
+        }
+
+    }
+
+    /// <summary>
+    /// Called when the agents collider enters a trigger collider
+    /// </summary>
+    /// <param name="other"> The trigger collider </param>
+    private void OnTriggerEnter(Collider other) {
+
+        TriggerEnterOrStay(other);
+
+    }
+
+    /// <summary>
+    /// Called when the agents collider stays in a trigger collider
+    /// </summary>
+    /// <param name="other"> The trigger collider </param>
+    private void OnTriggerStay(Collider other) {
+
+        TriggerEnterOrStay(other);
+
+    }
+
+    /// <summary>
+    /// handles when the agents collider enters or stays in a trigger collider
+    /// </summary>
+    /// <param name="collider"> the trigger collider </param>
+    private void TriggerEnterOrStay(Collider collider) {
+
+        // check if agent is colliding with nectar
+        if (collider.CompareTag("nectar")) {
+
+            Vector3 closestPointToBeakTip = collider.ClosestPoint(beakTip.position);
+
+            // check if the closest collision point is close to the beak tip
+            // Note: a collision with anything but the beak tip should not count
+            if (Vector3.Distance(beakTip.position, closestPointToBeakTip) < BeakTipRadius) {
+
+                // look up the flower for this nectar collider
+                Flower flower = flowerArea.GetFlowerFromNectar(collider);
+
+                // attempt to take 0.01 nectar
+                // Note: this is per fixed timestep, meaning it happens every .02 second, or 50x per second
+                float nectarRecieved = flower.Feed(0.01f);
+
+                // keep track of nectar obtained
+                NectarObtained += nectarRecieved;
+
+                if (trainingMode) {
+
+                    // calculate reward for getting nectar
+                    float bonus = 0.2f * Mathf.Clamp01(Vector3.Dot(transform.forward.normalized, -nearestflower.flowerUpVector.normalized));
+
+                    AddReward(0.01f + bonus);
+
+                }
+
+                // if flower is empty, update the nearest flower
+                if (!flower.hasNectar) {
+
+                    UpdateNearestFlower();
+
+                }
+    
+            }
+
+        }
+
+    }
+
+    /// <summary>
+    /// called when the agent collides with something solid
+    /// </summary>
+    /// <param name="collision"> the collision info </param>
+    private void OnCollisionEnter(Collision collision) {
+        
+        if (trainingMode && collision.collider.CompareTag("boundary")){
+
+            // collided with the area boundary, give a negative rewards
+            AddReward(-0.5f);
+
+        }
+
+    }
+
+    /// <summary>
+    /// called every frame
+    /// </summary>
+    private void Update() {
+        
+        // draw line from the beak tip to the nearest flower
+        if (nearestflower != null) {
+            Debug.DrawLine(beakTip.position, nearestflower.flowerCenterPosition, Color.green);
+        }
+
+    }
+
+    /// <summary>
+    /// called every 0.02 seconds
+    /// </summary>
+    private void FixedUpdate() {
+        
+        // avoids scenario where nearest flower nectar is stolen by opponent and not updated
+        if (nearestflower !=null && !nearestflower.hasNectar) {
+            UpdateNearestFlower();
         }
 
     }
