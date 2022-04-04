@@ -293,6 +293,7 @@ public class HummingbirdAgent : Agent {
         Debug.Assert(trainingMode == false, "Freeze/Unfreeze not supported in training");
         frozen = true;
         rigidbody.Sleep();
+        Debug.Log("FROZEN");
 
     }
 
@@ -304,6 +305,7 @@ public class HummingbirdAgent : Agent {
         Debug.Assert(trainingMode == false, "Freeze/Unfreeze not supported in training");
         frozen = false;
         rigidbody.WakeUp();
+        Debug.Log("UNFROZEN");
 
     }
 

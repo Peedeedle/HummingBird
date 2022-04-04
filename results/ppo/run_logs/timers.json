@@ -1,0 +1,42 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1648972837",
+        "python_version": "3.7.9 (tags/v3.7.9:13c94747c7, Aug 17 2020, 18:58:18) [MSC v.1900 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\Users\\jackl\\Documents\\GitHub\\HummingBird\\venv\\Scripts\\mlagents-learn --force",
+        "mlagents_version": "0.29.0",
+        "mlagents_envs_version": "0.29.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "1.7.0+cu110",
+        "numpy_version": "1.21.2",
+        "end_time_seconds": "1648972911"
+    },
+    "total": 73.2934066,
+    "count": 1,
+    "self": 0.010379700000001435,
+    "children": {
+        "run_training.setup": {
+            "total": 0.12436059999999993,
+            "count": 1,
+            "self": 0.12436059999999993
+        },
+        "TrainerController.start_learning": {
+            "total": 73.1586663,
+            "count": 1,
+            "self": 0.00024319999999988795,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 73.1583706,
+                    "count": 1,
+                    "self": 73.1583706
+                },
+                "TrainerController._save_models": {
+                    "total": 5.2499999995347935e-05,
+                    "count": 1,
+                    "self": 5.2499999995347935e-05
+                }
+            }
+        }
+    }
+}
