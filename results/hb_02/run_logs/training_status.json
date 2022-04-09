@@ -1,0 +1,29 @@
+{
+    "Hummingbird": {
+        "checkpoints": [
+            {
+                "steps": 499960,
+                "file_path": "results\\hb_02\\Hummingbird\\Hummingbird-499960.nn",
+                "reward": 0.4272054036458333,
+                "creation_time": 1649493015.7521012
+            },
+            {
+                "steps": 500256,
+                "file_path": "results\\hb_02\\Hummingbird\\Hummingbird-500256.nn",
+                "reward": 0.320404052734375,
+                "creation_time": 1649493016.7639396
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 500256,
+            "file_path": "results\\hb_02\\Hummingbird.nn",
+            "reward": 0.320404052734375,
+            "creation_time": 1649493016.7639396
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.1.0",
+        "mlagents_version": "0.20.0",
+        "tensorflow_version": "2.7.1"
+    }
+}
