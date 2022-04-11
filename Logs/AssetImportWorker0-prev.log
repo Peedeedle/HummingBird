@@ -15,11 +15,11 @@ C:/Users/jackl/Documents/GitHub/HummingBird
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-63891
+61884
 Successfully changed project path to: C:/Users/jackl/Documents/GitHub/HummingBird
 C:/Users/jackl/Documents/GitHub/HummingBird
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 109.19 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 110.11 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.12f1 (afcadd793de6)
 [Subsystems] Discovering subsystems at path C:/Program Files/UNITY/2021.1.12f1/Editor/Data/Resources/UnitySubsystems
@@ -35,91 +35,91 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/UNITY/2021.1.12f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/UNITY/2021.1.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/UNITY/2021.1.12f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56436
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56636
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/UNITY/2021.1.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001020 seconds.
+Registered in 0.003391 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 112.41 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 101.83 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.238 seconds
+- Completed reload, in  1.154 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1238ms)
-		BeginReloadAssembly (46ms)
+	ReloadAssembly (1155ms)
+		BeginReloadAssembly (40ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (509ms)
-			LoadAssemblies (44ms)
+		EndReloadAssembly (479ms)
+			LoadAssemblies (40ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (147ms)
+			SetupTypeCache (158ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (55ms)
-			SetupLoadedEditorAssemblies (268ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (229ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (112ms)
+				RefreshPlugins (102ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (121ms)
-				ProcessInitializeOnLoadMethodAttributes (26ms)
+				ProcessInitializeOnLoadAttributes (93ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.021617 seconds.
+Registered in 0.006894 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\jackl\Documents\GitHub\HummingBird\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\jackl\Documents\GitHub\HummingBird\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 94.77 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 98.67 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.546 seconds
+- Completed reload, in  1.521 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1547ms)
-		BeginReloadAssembly (145ms)
+	ReloadAssembly (1521ms)
+		BeginReloadAssembly (137ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (30ms)
-		EndReloadAssembly (1350ms)
-			LoadAssemblies (78ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (1334ms)
+			LoadAssemblies (82ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (392ms)
+			SetupTypeCache (376ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (65ms)
-			SetupLoadedEditorAssemblies (710ms)
+			RebuildScriptCaches (64ms)
+			SetupLoadedEditorAssemblies (719ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (95ms)
-				BeforeProcessingInitializeOnLoad (97ms)
-				ProcessInitializeOnLoadAttributes (506ms)
-				ProcessInitializeOnLoadMethodAttributes (5ms)
+				RefreshPlugins (99ms)
+				BeforeProcessingInitializeOnLoad (95ms)
+				ProcessInitializeOnLoadAttributes (513ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
 				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.98 ms, found 4 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 1.00 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4592 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 180.1 MB.
-System memory in use after: 177.3 MB.
+System memory in use before: 179.9 MB.
+System memory in use after: 177.2 MB.
 
 Unloading 75 unused Assets to reduce memory usage. Loaded Objects now: 4985.
-Total: 7.586900 ms (FindLiveObjects: 0.750400 ms CreateObjectMapping: 0.757900 ms MarkObjects: 4.242100 ms  DeleteObjects: 1.834000 ms)
+Total: 8.617500 ms (FindLiveObjects: 0.691900 ms CreateObjectMapping: 0.643800 ms MarkObjects: 6.077900 ms  DeleteObjects: 1.202500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -133,13 +133,31 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Hummingbird/Materials
-  artifactKey: Guid(6bf168128ced6fa4b8d6b2bde9eefd7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hummingbird/Materials using Guid(6bf168128ced6fa4b8d6b2bde9eefd7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa5693efca16ee7a4cb536fa5f4b86b2') in 0.014129 seconds 
+  path: Assets/Hummingbird/Textures/hummingbird_fusciagreenGRADIENT.png
+  artifactKey: Guid(68993ed19fce68343aa40be6e498a412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hummingbird/Textures/hummingbird_fusciagreenGRADIENT.png using Guid(68993ed19fce68343aa40be6e498a412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6dd242517277e49e6a28499b22308e1') in 0.134394 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.122920 seconds.
-  path: Assets/Hummingbird/Meshes/flower.fbx
-  artifactKey: Guid(8c77304d7888fac4eacdded42fcaac9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hummingbird/Meshes/flower.fbx using Guid(8c77304d7888fac4eacdded42fcaac9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '759beb2b15f6508ec301bc7f1e7c89da') in 0.469227 seconds 
+  Time since last request: 0.000264 seconds.
+  path: Assets/Hummingbird/Materials/Bird/HummingbirdWings.mat
+  artifactKey: Guid(0b94b6a07ba17524ab5c947f0b306446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hummingbird/Materials/Bird/HummingbirdWings.mat using Guid(0b94b6a07ba17524ab5c947f0b306446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9faa980d388ea8105d88ac94f075f5fe') in 0.209837 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000386 seconds.
+  path: Assets/Hummingbird/Textures/hummingbird_wings.png
+  artifactKey: Guid(f483ae7399fd17a4383ca35a820719b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hummingbird/Textures/hummingbird_wings.png using Guid(f483ae7399fd17a4383ca35a820719b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1108ef521646c1007e14ad4e8df7b02f') in 0.020160 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/Hummingbird/Meshes/hummingbird.fbx
+  artifactKey: Guid(fbf093d06a5404d4aa02c32380eb3a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hummingbird/Meshes/hummingbird.fbx using Guid(fbf093d06a5404d4aa02c32380eb3a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0da795a46fce6d3ac60df4e4f7f749f8') in 0.416868 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Hummingbird/Materials/Bird/HummingbirdBody.mat
+  artifactKey: Guid(651c9e88abd7dd842b26cde4e42b1fde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hummingbird/Materials/Bird/HummingbirdBody.mat using Guid(651c9e88abd7dd842b26cde4e42b1fde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70264a51f7f00c7809b253b3eedba568') in 0.021194 seconds 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
