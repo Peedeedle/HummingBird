@@ -15,11 +15,11 @@ C:/Users/jackl/Documents/GitHub/HummingBird
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-63891
+62761
 Successfully changed project path to: C:/Users/jackl/Documents/GitHub/HummingBird
 C:/Users/jackl/Documents/GitHub/HummingBird
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 109.19 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 108.18 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.12f1 (afcadd793de6)
 [Subsystems] Discovering subsystems at path C:/Program Files/UNITY/2021.1.12f1/Editor/Data/Resources/UnitySubsystems
@@ -35,74 +35,74 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/UNITY/2021.1.12f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/UNITY/2021.1.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/UNITY/2021.1.12f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56436
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56004
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/UNITY/2021.1.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001020 seconds.
+Registered in 0.001008 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 112.41 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 112.24 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.238 seconds
+- Completed reload, in  1.303 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1238ms)
-		BeginReloadAssembly (46ms)
+	ReloadAssembly (1303ms)
+		BeginReloadAssembly (39ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (509ms)
-			LoadAssemblies (44ms)
+		EndReloadAssembly (491ms)
+			LoadAssemblies (37ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (147ms)
+			SetupTypeCache (146ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (55ms)
-			SetupLoadedEditorAssemblies (268ms)
+			RebuildScriptCaches (60ms)
+			SetupLoadedEditorAssemblies (247ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (112ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (121ms)
-				ProcessInitializeOnLoadMethodAttributes (26ms)
+				ProcessInitializeOnLoadAttributes (102ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.021617 seconds.
+Registered in 0.006751 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\jackl\Documents\GitHub\HummingBird\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\jackl\Documents\GitHub\HummingBird\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 94.77 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 93.76 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.546 seconds
+- Completed reload, in  1.519 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1547ms)
-		BeginReloadAssembly (145ms)
+	ReloadAssembly (1519ms)
+		BeginReloadAssembly (137ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (30ms)
-		EndReloadAssembly (1350ms)
-			LoadAssemblies (78ms)
+		EndReloadAssembly (1332ms)
+			LoadAssemblies (77ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (392ms)
+			SetupTypeCache (374ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (65ms)
-			SetupLoadedEditorAssemblies (710ms)
+			RebuildScriptCaches (62ms)
+			SetupLoadedEditorAssemblies (725ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (95ms)
-				BeforeProcessingInitializeOnLoad (97ms)
-				ProcessInitializeOnLoadAttributes (506ms)
+				RefreshPlugins (94ms)
+				BeforeProcessingInitializeOnLoad (98ms)
+				ProcessInitializeOnLoadAttributes (522ms)
 				ProcessInitializeOnLoadMethodAttributes (5ms)
 				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (0ms)
@@ -112,14 +112,14 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.98 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 1.88 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4592 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 180.1 MB.
 System memory in use after: 177.3 MB.
 
 Unloading 75 unused Assets to reduce memory usage. Loaded Objects now: 4985.
-Total: 7.586900 ms (FindLiveObjects: 0.750400 ms CreateObjectMapping: 0.757900 ms MarkObjects: 4.242100 ms  DeleteObjects: 1.834000 ms)
+Total: 9.602900 ms (FindLiveObjects: 0.633400 ms CreateObjectMapping: 0.565000 ms MarkObjects: 5.419800 ms  DeleteObjects: 2.982800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -133,13 +133,611 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Hummingbird/Materials
-  artifactKey: Guid(6bf168128ced6fa4b8d6b2bde9eefd7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hummingbird/Materials using Guid(6bf168128ced6fa4b8d6b2bde9eefd7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa5693efca16ee7a4cb536fa5f4b86b2') in 0.014129 seconds 
+  path: Assets/Hummingbird/NeuralNetworks
+  artifactKey: Guid(65d62015ad7d0194da0f16857dd91434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hummingbird/NeuralNetworks using Guid(65d62015ad7d0194da0f16857dd91434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96d995e010094d435a5fffaa99d220ed') in 0.015038 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.122920 seconds.
-  path: Assets/Hummingbird/Meshes/flower.fbx
-  artifactKey: Guid(8c77304d7888fac4eacdded42fcaac9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hummingbird/Meshes/flower.fbx using Guid(8c77304d7888fac4eacdded42fcaac9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '759beb2b15f6508ec301bc7f1e7c89da') in 0.469227 seconds 
+  Time since last request: 12.582148 seconds.
+  path: Assets/Hummingbird/NeuralNetworks/Hummingbird.nn
+  artifactKey: Guid(5ba6d3e0a62196749858617f8b367d8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hummingbird/NeuralNetworks/Hummingbird.nn using Guid(5ba6d3e0a62196749858617f8b367d8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) NullReferenceException
+  at (wrapper managed-to-native) UnityEditor.EditorUtility.CopySerialized(UnityEngine.Object,UnityEngine.Object)
+  at Unity.Barracuda.NNModelEditor.RenderStaticPreview (System.String assetPath, UnityEngine.Object[] subAssets, System.Int32 width, System.Int32 height) [0x00009] in C:\Users\jackl\Documents\GitHub\HummingBird\Library\PackageCache\com.unity.barracuda@1.0.4\Barracuda\Editor\ONNXModelImporterEditor.cs:85 
+  at UnityEditor.AssetPreviewUpdater.CreatePreview (UnityEngine.Object obj, UnityEngine.Object[] subAssets, System.String assetPath, System.Int32 width, System.Int32 height) [0x00093] in <cb5f6353539a46708761eca227df3590>:0 
+  at UnityEditor.AssetPreviewUpdater.CreatePreviewForAsset (UnityEngine.Object obj, UnityEngine.Object[] subAssets, System.String assetPath) [0x00001] in <cb5f6353539a46708761eca227df3590>:0 
+
+(Filename: Library/PackageCache/com.unity.barracuda@1.0.4/Barracuda/Editor/ONNXModelImporterEditor.cs Line: 85)
+
+ -> (artifact id: '93a596e012766e601d9d71e6c038d431') in 0.075334 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.055047 seconds.
+  path: Assets/Hummingbird/NeuralNetworks/Hb_02.nn
+  artifactKey: Guid(5ba6d3e0a62196749858617f8b367d8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hummingbird/NeuralNetworks/Hb_02.nn using Guid(5ba6d3e0a62196749858617f8b367d8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) NullReferenceException
+  at (wrapper managed-to-native) UnityEditor.EditorUtility.CopySerialized(UnityEngine.Object,UnityEngine.Object)
+  at Unity.Barracuda.NNModelEditor.RenderStaticPreview (System.String assetPath, UnityEngine.Object[] subAssets, System.Int32 width, System.Int32 height) [0x00009] in C:\Users\jackl\Documents\GitHub\HummingBird\Library\PackageCache\com.unity.barracuda@1.0.4\Barracuda\Editor\ONNXModelImporterEditor.cs:85 
+  at UnityEditor.AssetPreviewUpdater.CreatePreview (UnityEngine.Object obj, UnityEngine.Object[] subAssets, System.String assetPath, System.Int32 width, System.Int32 height) [0x00093] in <cb5f6353539a46708761eca227df3590>:0 
+  at UnityEditor.AssetPreviewUpdater.CreatePreviewForAsset (UnityEngine.Object obj, UnityEngine.Object[] subAssets, System.String assetPath) [0x00001] in <cb5f6353539a46708761eca227df3590>:0 
+
+(Filename: Library/PackageCache/com.unity.barracuda@1.0.4/Barracuda/Editor/ONNXModelImporterEditor.cs Line: 85)
+
+ -> (artifact id: '677073d6bc5351fa3d0ee8a817065504') in 0.018641 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.584562 seconds.
+  path: Assets/Hummingbird/NeuralNetworks/Hummingbird.nn
+  artifactKey: Guid(8fc071ff5972f99459c145aaf3d04cd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hummingbird/NeuralNetworks/Hummingbird.nn using Guid(8fc071ff5972f99459c145aaf3d04cd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) NullReferenceException
+  at (wrapper managed-to-native) UnityEditor.EditorUtility.CopySerialized(UnityEngine.Object,UnityEngine.Object)
+  at Unity.Barracuda.NNModelEditor.RenderStaticPreview (System.String assetPath, UnityEngine.Object[] subAssets, System.Int32 width, System.Int32 height) [0x00009] in C:\Users\jackl\Documents\GitHub\HummingBird\Library\PackageCache\com.unity.barracuda@1.0.4\Barracuda\Editor\ONNXModelImporterEditor.cs:85 
+  at UnityEditor.AssetPreviewUpdater.CreatePreview (UnityEngine.Object obj, UnityEngine.Object[] subAssets, System.String assetPath, System.Int32 width, System.Int32 height) [0x00093] in <cb5f6353539a46708761eca227df3590>:0 
+  at UnityEditor.AssetPreviewUpdater.CreatePreviewForAsset (UnityEngine.Object obj, UnityEngine.Object[] subAssets, System.String assetPath) [0x00001] in <cb5f6353539a46708761eca227df3590>:0 
+
+(Filename: Library/PackageCache/com.unity.barracuda@1.0.4/Barracuda/Editor/ONNXModelImporterEditor.cs Line: 85)
+
+ -> (artifact id: '426868e15809095a7f2edf687dd72a00') in 0.005359 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.108133 seconds.
+  path: Assets/Hummingbird/NeuralNetworks/Hb_03.nn
+  artifactKey: Guid(8fc071ff5972f99459c145aaf3d04cd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hummingbird/NeuralNetworks/Hb_03.nn using Guid(8fc071ff5972f99459c145aaf3d04cd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) NullReferenceException
+  at (wrapper managed-to-native) UnityEditor.EditorUtility.CopySerialized(UnityEngine.Object,UnityEngine.Object)
+  at Unity.Barracuda.NNModelEditor.RenderStaticPreview (System.String assetPath, UnityEngine.Object[] subAssets, System.Int32 width, System.Int32 height) [0x00009] in C:\Users\jackl\Documents\GitHub\HummingBird\Library\PackageCache\com.unity.barracuda@1.0.4\Barracuda\Editor\ONNXModelImporterEditor.cs:85 
+  at UnityEditor.AssetPreviewUpdater.CreatePreview (UnityEngine.Object obj, UnityEngine.Object[] subAssets, System.String assetPath, System.Int32 width, System.Int32 height) [0x00093] in <cb5f6353539a46708761eca227df3590>:0 
+  at UnityEditor.AssetPreviewUpdater.CreatePreviewForAsset (UnityEngine.Object obj, UnityEngine.Object[] subAssets, System.String assetPath) [0x00001] in <cb5f6353539a46708761eca227df3590>:0 
+
+(Filename: Library/PackageCache/com.unity.barracuda@1.0.4/Barracuda/Editor/ONNXModelImporterEditor.cs Line: 85)
+
+ -> (artifact id: 'f0f2f1ca9869c3c5fec5b10b4f606a96') in 0.015005 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.942823 seconds.
+  path: Assets/Hummingbird/NeuralNetworks/Hummingbird.nn
+  artifactKey: Guid(bd1c61979c60b2344a9061b82b82635c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hummingbird/NeuralNetworks/Hummingbird.nn using Guid(bd1c61979c60b2344a9061b82b82635c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) NullReferenceException
+  at (wrapper managed-to-native) UnityEditor.EditorUtility.CopySerialized(UnityEngine.Object,UnityEngine.Object)
+  at Unity.Barracuda.NNModelEditor.RenderStaticPreview (System.String assetPath, UnityEngine.Object[] subAssets, System.Int32 width, System.Int32 height) [0x00009] in C:\Users\jackl\Documents\GitHub\HummingBird\Library\PackageCache\com.unity.barracuda@1.0.4\Barracuda\Editor\ONNXModelImporterEditor.cs:85 
+  at UnityEditor.AssetPreviewUpdater.CreatePreview (UnityEngine.Object obj, UnityEngine.Object[] subAssets, System.String assetPath, System.Int32 width, System.Int32 height) [0x00093] in <cb5f6353539a46708761eca227df3590>:0 
+  at UnityEditor.AssetPreviewUpdater.CreatePreviewForAsset (UnityEngine.Object obj, UnityEngine.Object[] subAssets, System.String assetPath) [0x00001] in <cb5f6353539a46708761eca227df3590>:0 
+
+(Filename: Library/PackageCache/com.unity.barracuda@1.0.4/Barracuda/Editor/ONNXModelImporterEditor.cs Line: 85)
+
+ -> (artifact id: '867b3414cc9e9397b2f9cad9ded32821') in 0.005944 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.783635 seconds.
+  path: Assets/Hummingbird/NeuralNetworks/Hb_04.nn
+  artifactKey: Guid(bd1c61979c60b2344a9061b82b82635c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hummingbird/NeuralNetworks/Hb_04.nn using Guid(bd1c61979c60b2344a9061b82b82635c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) NullReferenceException
+  at (wrapper managed-to-native) UnityEditor.EditorUtility.CopySerialized(UnityEngine.Object,UnityEngine.Object)
+  at Unity.Barracuda.NNModelEditor.RenderStaticPreview (System.String assetPath, UnityEngine.Object[] subAssets, System.Int32 width, System.Int32 height) [0x00009] in C:\Users\jackl\Documents\GitHub\HummingBird\Library\PackageCache\com.unity.barracuda@1.0.4\Barracuda\Editor\ONNXModelImporterEditor.cs:85 
+  at UnityEditor.AssetPreviewUpdater.CreatePreview (UnityEngine.Object obj, UnityEngine.Object[] subAssets, System.String assetPath, System.Int32 width, System.Int32 height) [0x00093] in <cb5f6353539a46708761eca227df3590>:0 
+  at UnityEditor.AssetPreviewUpdater.CreatePreviewForAsset (UnityEngine.Object obj, UnityEngine.Object[] subAssets, System.String assetPath) [0x00001] in <cb5f6353539a46708761eca227df3590>:0 
+
+(Filename: Library/PackageCache/com.unity.barracuda@1.0.4/Barracuda/Editor/ONNXModelImporterEditor.cs Line: 85)
+
+ -> (artifact id: '5571ffde876b906e5feaf8c086b7caf8') in 0.012686 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.559943 seconds.
+  path: Assets/Hummingbird/NeuralNetworks/Hummingbird.nn
+  artifactKey: Guid(495ef4e00c618d444abb917896738cf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hummingbird/NeuralNetworks/Hummingbird.nn using Guid(495ef4e00c618d444abb917896738cf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) NullReferenceException
+  at (wrapper managed-to-native) UnityEditor.EditorUtility.CopySerialized(UnityEngine.Object,UnityEngine.Object)
+  at Unity.Barracuda.NNModelEditor.RenderStaticPreview (System.String assetPath, UnityEngine.Object[] subAssets, System.Int32 width, System.Int32 height) [0x00009] in C:\Users\jackl\Documents\GitHub\HummingBird\Library\PackageCache\com.unity.barracuda@1.0.4\Barracuda\Editor\ONNXModelImporterEditor.cs:85 
+  at UnityEditor.AssetPreviewUpdater.CreatePreview (UnityEngine.Object obj, UnityEngine.Object[] subAssets, System.String assetPath, System.Int32 width, System.Int32 height) [0x00093] in <cb5f6353539a46708761eca227df3590>:0 
+  at UnityEditor.AssetPreviewUpdater.CreatePreviewForAsset (UnityEngine.Object obj, UnityEngine.Object[] subAssets, System.String assetPath) [0x00001] in <cb5f6353539a46708761eca227df3590>:0 
+
+(Filename: Library/PackageCache/com.unity.barracuda@1.0.4/Barracuda/Editor/ONNXModelImporterEditor.cs Line: 85)
+
+ -> (artifact id: 'f2b8a4d00f50218f12876029c90b6513') in 0.005743 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.254162 seconds.
+  path: Assets/Hummingbird/NeuralNetworks/Hb_05.nn
+  artifactKey: Guid(495ef4e00c618d444abb917896738cf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hummingbird/NeuralNetworks/Hb_05.nn using Guid(495ef4e00c618d444abb917896738cf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) NullReferenceException
+  at (wrapper managed-to-native) UnityEditor.EditorUtility.CopySerialized(UnityEngine.Object,UnityEngine.Object)
+  at Unity.Barracuda.NNModelEditor.RenderStaticPreview (System.String assetPath, UnityEngine.Object[] subAssets, System.Int32 width, System.Int32 height) [0x00009] in C:\Users\jackl\Documents\GitHub\HummingBird\Library\PackageCache\com.unity.barracuda@1.0.4\Barracuda\Editor\ONNXModelImporterEditor.cs:85 
+  at UnityEditor.AssetPreviewUpdater.CreatePreview (UnityEngine.Object obj, UnityEngine.Object[] subAssets, System.String assetPath, System.Int32 width, System.Int32 height) [0x00093] in <cb5f6353539a46708761eca227df3590>:0 
+  at UnityEditor.AssetPreviewUpdater.CreatePreviewForAsset (UnityEngine.Object obj, UnityEngine.Object[] subAssets, System.String assetPath) [0x00001] in <cb5f6353539a46708761eca227df3590>:0 
+
+(Filename: Library/PackageCache/com.unity.barracuda@1.0.4/Barracuda/Editor/ONNXModelImporterEditor.cs Line: 85)
+
+ -> (artifact id: 'c3255deb0a89dad39bb1fd977d8f75ea') in 0.009634 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.569148 seconds.
+  path: Assets/Hummingbird/NeuralNetworks/Hummingbird.nn
+  artifactKey: Guid(fa5560418c1e7464192477f286d955e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hummingbird/NeuralNetworks/Hummingbird.nn using Guid(fa5560418c1e7464192477f286d955e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) NullReferenceException
+  at (wrapper managed-to-native) UnityEditor.EditorUtility.CopySerialized(UnityEngine.Object,UnityEngine.Object)
+  at Unity.Barracuda.NNModelEditor.RenderStaticPreview (System.String assetPath, UnityEngine.Object[] subAssets, System.Int32 width, System.Int32 height) [0x00009] in C:\Users\jackl\Documents\GitHub\HummingBird\Library\PackageCache\com.unity.barracuda@1.0.4\Barracuda\Editor\ONNXModelImporterEditor.cs:85 
+  at UnityEditor.AssetPreviewUpdater.CreatePreview (UnityEngine.Object obj, UnityEngine.Object[] subAssets, System.String assetPath, System.Int32 width, System.Int32 height) [0x00093] in <cb5f6353539a46708761eca227df3590>:0 
+  at UnityEditor.AssetPreviewUpdater.CreatePreviewForAsset (UnityEngine.Object obj, UnityEngine.Object[] subAssets, System.String assetPath) [0x00001] in <cb5f6353539a46708761eca227df3590>:0 
+
+(Filename: Library/PackageCache/com.unity.barracuda@1.0.4/Barracuda/Editor/ONNXModelImporterEditor.cs Line: 85)
+
+ -> (artifact id: 'f26536ce0df50d1463510b3b21ec5b0c') in 0.011528 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.865115 seconds.
+  path: Assets/Hummingbird/NeuralNetworks/Hb_06.nn
+  artifactKey: Guid(fa5560418c1e7464192477f286d955e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hummingbird/NeuralNetworks/Hb_06.nn using Guid(fa5560418c1e7464192477f286d955e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) NullReferenceException
+  at (wrapper managed-to-native) UnityEditor.EditorUtility.CopySerialized(UnityEngine.Object,UnityEngine.Object)
+  at Unity.Barracuda.NNModelEditor.RenderStaticPreview (System.String assetPath, UnityEngine.Object[] subAssets, System.Int32 width, System.Int32 height) [0x00009] in C:\Users\jackl\Documents\GitHub\HummingBird\Library\PackageCache\com.unity.barracuda@1.0.4\Barracuda\Editor\ONNXModelImporterEditor.cs:85 
+  at UnityEditor.AssetPreviewUpdater.CreatePreview (UnityEngine.Object obj, UnityEngine.Object[] subAssets, System.String assetPath, System.Int32 width, System.Int32 height) [0x00093] in <cb5f6353539a46708761eca227df3590>:0 
+  at UnityEditor.AssetPreviewUpdater.CreatePreviewForAsset (UnityEngine.Object obj, UnityEngine.Object[] subAssets, System.String assetPath) [0x00001] in <cb5f6353539a46708761eca227df3590>:0 
+
+(Filename: Library/PackageCache/com.unity.barracuda@1.0.4/Barracuda/Editor/ONNXModelImporterEditor.cs Line: 85)
+
+ -> (artifact id: '0bc22b5d10eb74cf57fc5e5b5814db4a') in 0.023180 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.965107 seconds.
+  path: Assets/Hummingbird/NeuralNetworks/Hummingbird.nn
+  artifactKey: Guid(f33a7a053ac9d1941906394b0598d651) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hummingbird/NeuralNetworks/Hummingbird.nn using Guid(f33a7a053ac9d1941906394b0598d651) Importer(815301076,1909f56bfc062723c751e8b465ee728b) NullReferenceException
+  at (wrapper managed-to-native) UnityEditor.EditorUtility.CopySerialized(UnityEngine.Object,UnityEngine.Object)
+  at Unity.Barracuda.NNModelEditor.RenderStaticPreview (System.String assetPath, UnityEngine.Object[] subAssets, System.Int32 width, System.Int32 height) [0x00009] in C:\Users\jackl\Documents\GitHub\HummingBird\Library\PackageCache\com.unity.barracuda@1.0.4\Barracuda\Editor\ONNXModelImporterEditor.cs:85 
+  at UnityEditor.AssetPreviewUpdater.CreatePreview (UnityEngine.Object obj, UnityEngine.Object[] subAssets, System.String assetPath, System.Int32 width, System.Int32 height) [0x00093] in <cb5f6353539a46708761eca227df3590>:0 
+  at UnityEditor.AssetPreviewUpdater.CreatePreviewForAsset (UnityEngine.Object obj, UnityEngine.Object[] subAssets, System.String assetPath) [0x00001] in <cb5f6353539a46708761eca227df3590>:0 
+
+(Filename: Library/PackageCache/com.unity.barracuda@1.0.4/Barracuda/Editor/ONNXModelImporterEditor.cs Line: 85)
+
+ -> (artifact id: 'd21fb034feda80f6db4fd82422e83645') in 0.011147 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.018272 seconds.
+  path: Assets/Hummingbird/NeuralNetworks/Hb_07.nn
+  artifactKey: Guid(f33a7a053ac9d1941906394b0598d651) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hummingbird/NeuralNetworks/Hb_07.nn using Guid(f33a7a053ac9d1941906394b0598d651) Importer(815301076,1909f56bfc062723c751e8b465ee728b) NullReferenceException
+  at (wrapper managed-to-native) UnityEditor.EditorUtility.CopySerialized(UnityEngine.Object,UnityEngine.Object)
+  at Unity.Barracuda.NNModelEditor.RenderStaticPreview (System.String assetPath, UnityEngine.Object[] subAssets, System.Int32 width, System.Int32 height) [0x00009] in C:\Users\jackl\Documents\GitHub\HummingBird\Library\PackageCache\com.unity.barracuda@1.0.4\Barracuda\Editor\ONNXModelImporterEditor.cs:85 
+  at UnityEditor.AssetPreviewUpdater.CreatePreview (UnityEngine.Object obj, UnityEngine.Object[] subAssets, System.String assetPath, System.Int32 width, System.Int32 height) [0x00093] in <cb5f6353539a46708761eca227df3590>:0 
+  at UnityEditor.AssetPreviewUpdater.CreatePreviewForAsset (UnityEngine.Object obj, UnityEngine.Object[] subAssets, System.String assetPath) [0x00001] in <cb5f6353539a46708761eca227df3590>:0 
+
+(Filename: Library/PackageCache/com.unity.barracuda@1.0.4/Barracuda/Editor/ONNXModelImporterEditor.cs Line: 85)
+
+ -> (artifact id: '8eac11d87352d07bd46f240e1a770cb7') in 0.019798 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.964529 seconds.
+  path: Assets/Hummingbird/NeuralNetworks/Hummingbird.nn
+  artifactKey: Guid(4d3e36f9d25777b4d807c74da5bf0b13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hummingbird/NeuralNetworks/Hummingbird.nn using Guid(4d3e36f9d25777b4d807c74da5bf0b13) Importer(815301076,1909f56bfc062723c751e8b465ee728b) NullReferenceException
+  at (wrapper managed-to-native) UnityEditor.EditorUtility.CopySerialized(UnityEngine.Object,UnityEngine.Object)
+  at Unity.Barracuda.NNModelEditor.RenderStaticPreview (System.String assetPath, UnityEngine.Object[] subAssets, System.Int32 width, System.Int32 height) [0x00009] in C:\Users\jackl\Documents\GitHub\HummingBird\Library\PackageCache\com.unity.barracuda@1.0.4\Barracuda\Editor\ONNXModelImporterEditor.cs:85 
+  at UnityEditor.AssetPreviewUpdater.CreatePreview (UnityEngine.Object obj, UnityEngine.Object[] subAssets, System.String assetPath, System.Int32 width, System.Int32 height) [0x00093] in <cb5f6353539a46708761eca227df3590>:0 
+  at UnityEditor.AssetPreviewUpdater.CreatePreviewForAsset (UnityEngine.Object obj, UnityEngine.Object[] subAssets, System.String assetPath) [0x00001] in <cb5f6353539a46708761eca227df3590>:0 
+
+(Filename: Library/PackageCache/com.unity.barracuda@1.0.4/Barracuda/Editor/ONNXModelImporterEditor.cs Line: 85)
+
+ -> (artifact id: '9d7aa82532edc3023c4cb3c27e4227fd') in 0.011307 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.463717 seconds.
+  path: Assets/Hummingbird/NeuralNetworks/Hb_08.nn
+  artifactKey: Guid(4d3e36f9d25777b4d807c74da5bf0b13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hummingbird/NeuralNetworks/Hb_08.nn using Guid(4d3e36f9d25777b4d807c74da5bf0b13) Importer(815301076,1909f56bfc062723c751e8b465ee728b) NullReferenceException
+  at (wrapper managed-to-native) UnityEditor.EditorUtility.CopySerialized(UnityEngine.Object,UnityEngine.Object)
+  at Unity.Barracuda.NNModelEditor.RenderStaticPreview (System.String assetPath, UnityEngine.Object[] subAssets, System.Int32 width, System.Int32 height) [0x00009] in C:\Users\jackl\Documents\GitHub\HummingBird\Library\PackageCache\com.unity.barracuda@1.0.4\Barracuda\Editor\ONNXModelImporterEditor.cs:85 
+  at UnityEditor.AssetPreviewUpdater.CreatePreview (UnityEngine.Object obj, UnityEngine.Object[] subAssets, System.String assetPath, System.Int32 width, System.Int32 height) [0x00093] in <cb5f6353539a46708761eca227df3590>:0 
+  at UnityEditor.AssetPreviewUpdater.CreatePreviewForAsset (UnityEngine.Object obj, UnityEngine.Object[] subAssets, System.String assetPath) [0x00001] in <cb5f6353539a46708761eca227df3590>:0 
+
+(Filename: Library/PackageCache/com.unity.barracuda@1.0.4/Barracuda/Editor/ONNXModelImporterEditor.cs Line: 85)
+
+ -> (artifact id: '47c4d65b3f71af8f346ad10c3ec21672') in 0.012889 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006815 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\jackl\Documents\GitHub\HummingBird\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\jackl\Documents\GitHub\HummingBird\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.08 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.242 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1242ms)
+		BeginReloadAssembly (113ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (48ms)
+		EndReloadAssembly (1078ms)
+			LoadAssemblies (81ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (378ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (457ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (76ms)
+				ProcessInitializeOnLoadAttributes (367ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.16 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4519 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 178.0 MB.
+System memory in use after: 175.2 MB.
+
+Unloading 70 unused Assets to reduce memory usage. Loaded Objects now: 5016.
+Total: 10.485200 ms (FindLiveObjects: 0.448000 ms CreateObjectMapping: 0.286700 ms MarkObjects: 6.793300 ms  DeleteObjects: 2.954700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1538.480487 seconds.
+  path: Assets/Hummingbird/NeuralNetworks/Hummingbird.nn
+  artifactKey: Guid(053bd1eef79ef784dae86328503ac34f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hummingbird/NeuralNetworks/Hummingbird.nn using Guid(053bd1eef79ef784dae86328503ac34f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) NullReferenceException
+  at (wrapper managed-to-native) UnityEditor.EditorUtility.CopySerialized(UnityEngine.Object,UnityEngine.Object)
+  at Unity.Barracuda.NNModelEditor.RenderStaticPreview (System.String assetPath, UnityEngine.Object[] subAssets, System.Int32 width, System.Int32 height) [0x00009] in C:\Users\jackl\Documents\GitHub\HummingBird\Library\PackageCache\com.unity.barracuda@1.0.4\Barracuda\Editor\ONNXModelImporterEditor.cs:85 
+  at UnityEditor.AssetPreviewUpdater.CreatePreview (UnityEngine.Object obj, UnityEngine.Object[] subAssets, System.String assetPath, System.Int32 width, System.Int32 height) [0x00093] in <cb5f6353539a46708761eca227df3590>:0 
+  at UnityEditor.AssetPreviewUpdater.CreatePreviewForAsset (UnityEngine.Object obj, UnityEngine.Object[] subAssets, System.String assetPath) [0x00001] in <cb5f6353539a46708761eca227df3590>:0 
+
+(Filename: Library/PackageCache/com.unity.barracuda@1.0.4/Barracuda/Editor/ONNXModelImporterEditor.cs Line: 85)
+
+ -> (artifact id: '7b0693b443b4ac6d9060c5b1f6a7603a') in 0.061477 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.713374 seconds.
+  path: Assets/Hummingbird/NeuralNetworks/Hb_09.nn
+  artifactKey: Guid(053bd1eef79ef784dae86328503ac34f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hummingbird/NeuralNetworks/Hb_09.nn using Guid(053bd1eef79ef784dae86328503ac34f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) NullReferenceException
+  at (wrapper managed-to-native) UnityEditor.EditorUtility.CopySerialized(UnityEngine.Object,UnityEngine.Object)
+  at Unity.Barracuda.NNModelEditor.RenderStaticPreview (System.String assetPath, UnityEngine.Object[] subAssets, System.Int32 width, System.Int32 height) [0x00009] in C:\Users\jackl\Documents\GitHub\HummingBird\Library\PackageCache\com.unity.barracuda@1.0.4\Barracuda\Editor\ONNXModelImporterEditor.cs:85 
+  at UnityEditor.AssetPreviewUpdater.CreatePreview (UnityEngine.Object obj, UnityEngine.Object[] subAssets, System.String assetPath, System.Int32 width, System.Int32 height) [0x00093] in <cb5f6353539a46708761eca227df3590>:0 
+  at UnityEditor.AssetPreviewUpdater.CreatePreviewForAsset (UnityEngine.Object obj, UnityEngine.Object[] subAssets, System.String assetPath) [0x00001] in <cb5f6353539a46708761eca227df3590>:0 
+
+(Filename: Library/PackageCache/com.unity.barracuda@1.0.4/Barracuda/Editor/ONNXModelImporterEditor.cs Line: 85)
+
+ -> (artifact id: '5c7d1e6eae69fff9b116b60432121eb1') in 0.016281 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007856 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\jackl\Documents\GitHub\HummingBird\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\jackl\Documents\GitHub\HummingBird\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.03 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.225 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1225ms)
+		BeginReloadAssembly (118ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (56ms)
+		EndReloadAssembly (1054ms)
+			LoadAssemblies (83ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (365ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (448ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (89ms)
+				ProcessInitializeOnLoadAttributes (344ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.10 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4519 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 178.2 MB.
+System memory in use after: 175.5 MB.
+
+Unloading 70 unused Assets to reduce memory usage. Loaded Objects now: 5023.
+Total: 7.838600 ms (FindLiveObjects: 0.747000 ms CreateObjectMapping: 0.637500 ms MarkObjects: 4.506700 ms  DeleteObjects: 1.943700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1329.393176 seconds.
+  path: Assets/Hummingbird/NeuralNetworks/Hummingbird.nn
+  artifactKey: Guid(38c5104a02c03724d814c28bbb57fb5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hummingbird/NeuralNetworks/Hummingbird.nn using Guid(38c5104a02c03724d814c28bbb57fb5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) NullReferenceException
+  at (wrapper managed-to-native) UnityEditor.EditorUtility.CopySerialized(UnityEngine.Object,UnityEngine.Object)
+  at Unity.Barracuda.NNModelEditor.RenderStaticPreview (System.String assetPath, UnityEngine.Object[] subAssets, System.Int32 width, System.Int32 height) [0x00009] in C:\Users\jackl\Documents\GitHub\HummingBird\Library\PackageCache\com.unity.barracuda@1.0.4\Barracuda\Editor\ONNXModelImporterEditor.cs:85 
+  at UnityEditor.AssetPreviewUpdater.CreatePreview (UnityEngine.Object obj, UnityEngine.Object[] subAssets, System.String assetPath, System.Int32 width, System.Int32 height) [0x00093] in <cb5f6353539a46708761eca227df3590>:0 
+  at UnityEditor.AssetPreviewUpdater.CreatePreviewForAsset (UnityEngine.Object obj, UnityEngine.Object[] subAssets, System.String assetPath) [0x00001] in <cb5f6353539a46708761eca227df3590>:0 
+
+(Filename: Library/PackageCache/com.unity.barracuda@1.0.4/Barracuda/Editor/ONNXModelImporterEditor.cs Line: 85)
+
+ -> (artifact id: '22d1b282ccb34f054f159738fc831ede') in 0.040346 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.972409 seconds.
+  path: Assets/Hummingbird/NeuralNetworks/Hb_11.nn
+  artifactKey: Guid(38c5104a02c03724d814c28bbb57fb5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hummingbird/NeuralNetworks/Hb_11.nn using Guid(38c5104a02c03724d814c28bbb57fb5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) NullReferenceException
+  at (wrapper managed-to-native) UnityEditor.EditorUtility.CopySerialized(UnityEngine.Object,UnityEngine.Object)
+  at Unity.Barracuda.NNModelEditor.RenderStaticPreview (System.String assetPath, UnityEngine.Object[] subAssets, System.Int32 width, System.Int32 height) [0x00009] in C:\Users\jackl\Documents\GitHub\HummingBird\Library\PackageCache\com.unity.barracuda@1.0.4\Barracuda\Editor\ONNXModelImporterEditor.cs:85 
+  at UnityEditor.AssetPreviewUpdater.CreatePreview (UnityEngine.Object obj, UnityEngine.Object[] subAssets, System.String assetPath, System.Int32 width, System.Int32 height) [0x00093] in <cb5f6353539a46708761eca227df3590>:0 
+  at UnityEditor.AssetPreviewUpdater.CreatePreviewForAsset (UnityEngine.Object obj, UnityEngine.Object[] subAssets, System.String assetPath) [0x00001] in <cb5f6353539a46708761eca227df3590>:0 
+
+(Filename: Library/PackageCache/com.unity.barracuda@1.0.4/Barracuda/Editor/ONNXModelImporterEditor.cs Line: 85)
+
+ -> (artifact id: 'be991d364a44e44aded5c9d5f21e8d29') in 0.019811 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.098164 seconds.
+  path: Assets/Hummingbird/NeuralNetworks/Hb_0.nn
+  artifactKey: Guid(38c5104a02c03724d814c28bbb57fb5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hummingbird/NeuralNetworks/Hb_0.nn using Guid(38c5104a02c03724d814c28bbb57fb5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) NullReferenceException
+  at (wrapper managed-to-native) UnityEditor.EditorUtility.CopySerialized(UnityEngine.Object,UnityEngine.Object)
+  at Unity.Barracuda.NNModelEditor.RenderStaticPreview (System.String assetPath, UnityEngine.Object[] subAssets, System.Int32 width, System.Int32 height) [0x00009] in C:\Users\jackl\Documents\GitHub\HummingBird\Library\PackageCache\com.unity.barracuda@1.0.4\Barracuda\Editor\ONNXModelImporterEditor.cs:85 
+  at UnityEditor.AssetPreviewUpdater.CreatePreview (UnityEngine.Object obj, UnityEngine.Object[] subAssets, System.String assetPath, System.Int32 width, System.Int32 height) [0x00093] in <cb5f6353539a46708761eca227df3590>:0 
+  at UnityEditor.AssetPreviewUpdater.CreatePreviewForAsset (UnityEngine.Object obj, UnityEngine.Object[] subAssets, System.String assetPath) [0x00001] in <cb5f6353539a46708761eca227df3590>:0 
+
+(Filename: Library/PackageCache/com.unity.barracuda@1.0.4/Barracuda/Editor/ONNXModelImporterEditor.cs Line: 85)
+
+ -> (artifact id: 'aaaf091c778bfcf8efb3400c1737e99f') in 0.017625 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.757587 seconds.
+  path: Assets/Hummingbird/NeuralNetworks/Hb_10.nn
+  artifactKey: Guid(38c5104a02c03724d814c28bbb57fb5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hummingbird/NeuralNetworks/Hb_10.nn using Guid(38c5104a02c03724d814c28bbb57fb5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) NullReferenceException
+  at (wrapper managed-to-native) UnityEditor.EditorUtility.CopySerialized(UnityEngine.Object,UnityEngine.Object)
+  at Unity.Barracuda.NNModelEditor.RenderStaticPreview (System.String assetPath, UnityEngine.Object[] subAssets, System.Int32 width, System.Int32 height) [0x00009] in C:\Users\jackl\Documents\GitHub\HummingBird\Library\PackageCache\com.unity.barracuda@1.0.4\Barracuda\Editor\ONNXModelImporterEditor.cs:85 
+  at UnityEditor.AssetPreviewUpdater.CreatePreview (UnityEngine.Object obj, UnityEngine.Object[] subAssets, System.String assetPath, System.Int32 width, System.Int32 height) [0x00093] in <cb5f6353539a46708761eca227df3590>:0 
+  at UnityEditor.AssetPreviewUpdater.CreatePreviewForAsset (UnityEngine.Object obj, UnityEngine.Object[] subAssets, System.String assetPath) [0x00001] in <cb5f6353539a46708761eca227df3590>:0 
+
+(Filename: Library/PackageCache/com.unity.barracuda@1.0.4/Barracuda/Editor/ONNXModelImporterEditor.cs Line: 85)
+
+ -> (artifact id: '4cfcdfa3ca7434e83ce8503ae9b9ed8b') in 0.019040 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007067 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\jackl\Documents\GitHub\HummingBird\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\jackl\Documents\GitHub\HummingBird\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.05 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.177 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1178ms)
+		BeginReloadAssembly (144ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (76ms)
+		EndReloadAssembly (985ms)
+			LoadAssemblies (91ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (350ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (400ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (70ms)
+				ProcessInitializeOnLoadAttributes (317ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.00 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4519 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 178.7 MB.
+System memory in use after: 175.9 MB.
+
+Unloading 70 unused Assets to reduce memory usage. Loaded Objects now: 5034.
+Total: 8.180600 ms (FindLiveObjects: 0.527300 ms CreateObjectMapping: 0.458700 ms MarkObjects: 5.333800 ms  DeleteObjects: 1.858200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 804.158224 seconds.
+  path: Assets/Hummingbird/NeuralNetworks/Hummingbird.nn
+  artifactKey: Guid(9869ef4cd8fa80340954686d7de5eac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hummingbird/NeuralNetworks/Hummingbird.nn using Guid(9869ef4cd8fa80340954686d7de5eac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) NullReferenceException
+  at (wrapper managed-to-native) UnityEditor.EditorUtility.CopySerialized(UnityEngine.Object,UnityEngine.Object)
+  at Unity.Barracuda.NNModelEditor.RenderStaticPreview (System.String assetPath, UnityEngine.Object[] subAssets, System.Int32 width, System.Int32 height) [0x00009] in C:\Users\jackl\Documents\GitHub\HummingBird\Library\PackageCache\com.unity.barracuda@1.0.4\Barracuda\Editor\ONNXModelImporterEditor.cs:85 
+  at UnityEditor.AssetPreviewUpdater.CreatePreview (UnityEngine.Object obj, UnityEngine.Object[] subAssets, System.String assetPath, System.Int32 width, System.Int32 height) [0x00093] in <cb5f6353539a46708761eca227df3590>:0 
+  at UnityEditor.AssetPreviewUpdater.CreatePreviewForAsset (UnityEngine.Object obj, UnityEngine.Object[] subAssets, System.String assetPath) [0x00001] in <cb5f6353539a46708761eca227df3590>:0 
+
+(Filename: Library/PackageCache/com.unity.barracuda@1.0.4/Barracuda/Editor/ONNXModelImporterEditor.cs Line: 85)
+
+ -> (artifact id: '167915235034a0913ca10bc628659af8') in 0.062951 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.637464 seconds.
+  path: Assets/Hummingbird/NeuralNetworks/Hb_11.nn
+  artifactKey: Guid(9869ef4cd8fa80340954686d7de5eac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hummingbird/NeuralNetworks/Hb_11.nn using Guid(9869ef4cd8fa80340954686d7de5eac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) NullReferenceException
+  at (wrapper managed-to-native) UnityEditor.EditorUtility.CopySerialized(UnityEngine.Object,UnityEngine.Object)
+  at Unity.Barracuda.NNModelEditor.RenderStaticPreview (System.String assetPath, UnityEngine.Object[] subAssets, System.Int32 width, System.Int32 height) [0x00009] in C:\Users\jackl\Documents\GitHub\HummingBird\Library\PackageCache\com.unity.barracuda@1.0.4\Barracuda\Editor\ONNXModelImporterEditor.cs:85 
+  at UnityEditor.AssetPreviewUpdater.CreatePreview (UnityEngine.Object obj, UnityEngine.Object[] subAssets, System.String assetPath, System.Int32 width, System.Int32 height) [0x00093] in <cb5f6353539a46708761eca227df3590>:0 
+  at UnityEditor.AssetPreviewUpdater.CreatePreviewForAsset (UnityEngine.Object obj, UnityEngine.Object[] subAssets, System.String assetPath) [0x00001] in <cb5f6353539a46708761eca227df3590>:0 
+
+(Filename: Library/PackageCache/com.unity.barracuda@1.0.4/Barracuda/Editor/ONNXModelImporterEditor.cs Line: 85)
+
+ -> (artifact id: '91986580005e5013e6d78ff1e2bc9a06') in 0.013728 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006494 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\jackl\Documents\GitHub\HummingBird\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\jackl\Documents\GitHub\HummingBird\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.02 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.209 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1209ms)
+		BeginReloadAssembly (111ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (53ms)
+		EndReloadAssembly (1049ms)
+			LoadAssemblies (78ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (351ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (466ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (74ms)
+				ProcessInitializeOnLoadAttributes (379ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.11 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4519 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 179.0 MB.
+System memory in use after: 176.1 MB.
+
+Unloading 70 unused Assets to reduce memory usage. Loaded Objects now: 5041.
+Total: 5.982200 ms (FindLiveObjects: 0.469300 ms CreateObjectMapping: 0.305800 ms MarkObjects: 3.608300 ms  DeleteObjects: 1.597100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007125 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\jackl\Documents\GitHub\HummingBird\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\jackl\Documents\GitHub\HummingBird\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.08 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.334 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1334ms)
+		BeginReloadAssembly (117ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (53ms)
+		EndReloadAssembly (1167ms)
+			LoadAssemblies (86ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (376ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (517ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (66ms)
+				ProcessInitializeOnLoadAttributes (424ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.52 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4519 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 178.9 MB.
+System memory in use after: 176.1 MB.
+
+Unloading 70 unused Assets to reduce memory usage. Loaded Objects now: 5044.
+Total: 5.256800 ms (FindLiveObjects: 0.392800 ms CreateObjectMapping: 0.396600 ms MarkObjects: 3.038400 ms  DeleteObjects: 1.428000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 828.425717 seconds.
+  path: Assets/Hummingbird/NeuralNetworks/OriginalYAMLfile
+  artifactKey: Guid(8e151ae2be9ba254ea93d7e9ae4ff113) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hummingbird/NeuralNetworks/OriginalYAMLfile using Guid(8e151ae2be9ba254ea93d7e9ae4ff113) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09989bbb7463fa7e580515cd5438e622') in 0.029018 seconds 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
